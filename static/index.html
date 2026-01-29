@@ -4,210 +4,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SDS - Taibah University</title>
+    <title>نظام إدارة بيانات السلامة | SDS Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --dark-navy: #111144;
-            --taibah-green: #0a8e6e;
-            --accent-blue: #00aeda;
-            --soft-gray: #f8f9fa;
+            --primary-color: #004a99;
+            --secondary-color: #008148;
+            --bg-color: #f4f7f6;
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--bg-color);
             margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .header {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             display: flex;
             flex-direction: column;
-            height: 100vh;
-            background: var(--soft-gray);
-        }
-
-        /* الهيدر الجديد: توزيع العناوين والشعار */
-        .header {
-            background: var(--dark-navy);
-            color: white;
-            padding: 20px 40px;
-            border-bottom: 4px solid var(--accent-blue);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-            display: grid;
-            grid-template-columns: 1fr auto 1fr;
-            /* ثلاث أعمدة: يمين، وسط، يسار */
             align-items: center;
-        }
-
-        /* العناوين باليمين (عربي) */
-        .header-right {
-            text-align: right;
-        }
-
-        .header-right h2 {
-            font-size: 1.2rem;
-            margin: 0;
-        }
-
-        .header-right p {
-            font-size: 0.9rem;
-            margin: 5px 0 0 0;
-            color: var(--accent-blue);
-        }
-
-        /* الشعار في المنتصف */
-        .header-center {
-            text-align: center;
         }
 
         .logo {
-            height: 90px;
-            filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+            max-width: 150px;
+            margin-bottom: 10px;
         }
 
-        /* العناوين باليسار (إنجليزي) */
-        .header-left {
-            text-align: left;
-            direction: ltr;
+        .titles {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            max-width: 800px;
+            margin-top: 10px;
+            border-top: 2px solid var(--primary-color);
+            padding-top: 10px;
         }
 
-        .header-left h2 {
-            font-size: 1.2rem;
+        .titles h2 {
+            font-size: 1.1rem;
+            color: var(--primary-color);
             margin: 0;
         }
 
-        .header-left p {
-            font-size: 0.9rem;
-            margin: 5px 0 0 0;
-            color: var(--accent-blue);
-        }
-
-        /* منطقة البحث */
-        .search-area {
-            background: white;
-            padding: 25px;
-            display: flex;
-            justify-content: center;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-            z-index: 100;
-        }
-
         .search-container {
-            position: relative;
-            width: 100%;
-            max-width: 700px;
-            display: flex;
-            gap: 12px;
+            margin: 40px auto;
+            width: 90%;
+            max-width: 600px;
         }
 
-        input {
-            flex: 1;
-            padding: 15px 30px;
-            border: 2px solid #e0e0e0;
-            border-radius: 35px;
-            font-size: 17px;
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 30px;
+            font-size: 1.1rem;
             outline: none;
+            transition: 0.3s;
             text-align: center;
-            transition: 0.3s;
         }
 
-        input:focus {
-            border-color: var(--accent-blue);
-            box-shadow: 0 0 10px rgba(0, 174, 218, 0.2);
+        input[type="text"]:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 8px rgba(0, 74, 153, 0.2);
         }
 
-        /* زر الطباعة بالإنجليزية */
-        .btn-print {
-            padding: 10px 30px;
-            background: var(--taibah-green);
-            color: white;
-            border: none;
-            border-radius: 35px;
-            cursor: pointer;
-            font-weight: bold;
-            font-family: Arial, sans-serif;
-            transition: 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            white-space: nowrap;
+        #results {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 600px;
         }
 
-        .btn-print:hover {
-            background: #086d54;
-            transform: translateY(-2px);
-        }
-
-        #drop {
-            display: none;
-            position: absolute;
-            top: 65px;
-            width: 100%;
+        .result-item {
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            max-height: 300px;
-            overflow-y: auto;
-            border: 1px solid #eee;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s;
         }
 
-        .item {
-            padding: 15px 30px;
-            cursor: pointer;
-            border-bottom: 1px solid #f8f8f8;
-            transition: 0.2s;
+        .result-item:hover {
+            transform: translateY(-3px);
         }
 
-        .item:hover {
-            background: #f0fbf9;
-            color: var(--taibah-green);
-            padding-right: 40px;
+        .chemical-name {
             font-weight: bold;
+            color: #333;
+            font-size: 1.1rem;
         }
 
-        .viewer {
-            flex: 1;
-            background: #525659;
-            position: relative;
+        .view-btn {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
         }
 
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+        .view-btn:hover {
+            background-color: #006336;
         }
 
-        .placeholder-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: #ccc;
-            text-align: center;
-        }
-
-        /* توافق الجوال */
-        @media (max-width: 850px) {
-            .header {
-                grid-template-columns: 1fr;
-                text-align: center;
-                gap: 15px;
-            }
-
-            .header-right,
-            .header-left {
-                text-align: center;
-            }
-
-            .header-center {
-                order: -1;
-            }
-
-            /* الشعار أولاً في الجوال */
-            .search-container {
-                flex-direction: column;
-            }
-
-            .btn-print {
-                width: 100%;
-                justify-content: center;
-            }
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9rem;
         }
     </style>
 </head>
@@ -215,83 +127,60 @@
 <body>
 
     <div class="header">
-        <div class="header-right">
-            <h2>صحيفة بيانات السلامة</h2>
-            <p>كلية الصيدلة - وحدة الأجهزة والمعامل</p>
-        </div>
-
-        <div class="header-center">
-            <img src="/Taibah_Logo.png" class="logo" alt="Taibah Logo">
-        </div>
-
-        <div class="header-left">
-            <h2>Safety Data Sheets</h2>
-            <p>College of Pharmacy - Instruments & Labs Unit</p>
+        <img src="/Taibah_Logo.png" alt="Taibah University Logo" class="logo">
+        <div class="titles">
+            <h2>وحدة الأجهزة والمعامل</h2>
+            <h2>Instruments and Labs Unit</h2>
         </div>
     </div>
 
-    <div class="search-area">
-        <div class="search-container">
-            <input type="text" id="srch" placeholder="Search for a substance (e.g., Ethanol)..."
-                oninput="doSearch(this.value)" autocomplete="off">
-            <button class="btn-print" onclick="printPDF()">🖨️ Print SDS</button>
-            <div id="drop"></div>
-        </div>
+    <div class="search-container">
+        <h1>البحث عن بيانات السلامة (SDS)</h1>
+        <input type="text" id="searchInput" placeholder="اكتب اسم المادة بالإنجليزية (مثلاً: Ethanol)..."
+            oninput="search()">
     </div>
 
-    <div class="viewer">
-        <div id="msg" class="placeholder-text">
-            <p style="font-size: 60px; margin:0;">📄</p>
-            <p>Search and select a substance to view its SDS file</p>
-        </div>
-        <iframe id="view" src=""></iframe>
+    <div id="results"></div>
+
+    <div class="footer">
+        © 2024 كلية الصيدلة - جامعة طيبة | Pharmacy College - Taibah University
     </div>
 
     <script>
-        async function doSearch(val) {
-            const drop = document.getElementById('drop');
-            if (val.length < 1) { drop.style.display = 'none'; return; }
+        async function search() {
+            const query = document.getElementById('searchInput').value;
+            const resultsDiv = document.getElementById('results');
+
+            if (query.length < 2) {
+                resultsDiv.innerHTML = '';
+                return;
+            }
 
             try {
-                const res = await fetch(`/search-sds/${val}`);
-                const data = await res.json();
+                const response = await fetch(`/search-sds/${query}`);
+                const data = await response.json();
+
+                resultsDiv.innerHTML = '';
 
                 if (data.results && data.results.length > 0) {
-                    drop.innerHTML = '';
-                    data.results.forEach(file => {
-                        const d = document.createElement('div');
-                        d.className = 'item';
-                        d.innerHTML = `🔬 ${file.name}`;
-                        d.onclick = () => {
-                            document.getElementById('view').src = file.url;
-                            document.getElementById('msg').style.display = 'none';
-                            drop.style.display = 'none';
-                            document.getElementById('srch').value = file.name;
-                        };
-                        drop.appendChild(d);
+                    data.results.forEach(result => {
+                        const div = document.createElement('div');
+                        div.className = 'result-item';
+
+                        // التعديل الجوهري هنا: إضافة target="_blank" لفتح الملف في صفحة جديدة بالكامل
+                        div.innerHTML = `
+                            <span class="chemical-name">${result.name}</span>
+                            <a href="${result.url}" target="_blank" rel="noopener noreferrer" class="view-btn">عرض الملف PDF</a>
+                        `;
+                        resultsDiv.appendChild(div);
                     });
-                    drop.style.display = 'block';
                 } else {
-                    drop.style.display = 'none';
+                    resultsDiv.innerHTML = '<p style="color:red;">عذراً، لم يتم العثور على نتائج.</p>';
                 }
-            } catch (e) { console.error("Search Error"); }
-        }
-
-        function printPDF() {
-            const frame = document.getElementById('view');
-            if (frame.src && frame.src !== window.location.href) {
-                frame.contentWindow.focus();
-                frame.contentWindow.print();
-            } else {
-                alert("Please select a file first to print");
+            } catch (error) {
+                console.error('Error:', error);
             }
         }
-
-        document.onclick = (e) => {
-            if (!e.target.closest('.search-container')) {
-                document.getElementById('drop').style.display = 'none';
-            }
-        };
     </script>
 </body>
 
