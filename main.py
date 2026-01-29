@@ -6,11 +6,12 @@ import urllib.parse
 
 app = FastAPI()
 
-# المسار الدقيق بناءً على ما أرسلته
-SDS_PATH = "static/pdfs/Safety Data Sheets"
+# المسار الجديد بدون مسافات لضمان التوافق مع السيرفرات
+SDS_PATH = "static/pdfs/Safety_Data_Sheets"
 
 # ربط المجلدات الاستاتيكية
-app.mount("/static", StaticFiles(directory="static"), name="static")
+if os.path.exists("static"):
+    app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 def index():
@@ -27,25 +28,17 @@ def search_sds(query: str):
     query = query.lower().strip()
     results = []
     
-    # التأكد من وجود المجلد في المسار المطلوب
+    # التأكد من وجود المجلد قبل البحث
     if not os.path.exists(SDS_PATH):
-        return {"error": f"المجلد غير موجود في: {SDS_PATH}"}
+        return {"results": [], "error": f"Path {SDS_PATH} not found"}
 
-    try:
-        for file in os.listdir(SDS_PATH):
-            if file.lower().endswith(".pdf") and query in file.lower():
-                # إزالة الامتداد للعرض الجمالي
-                clean_name = file.replace(".pdf", "").replace(".PDF", "")
-                
-                # تحويل اسم الملف لروابط آمنة (للمسافات وغيرها)
-                safe_filename = urllib.parse.quote(file)
-                
-                results.append({
-                    "name": clean_name,
-                    # الرابط يمر عبر pdfs ثم المجلد الموحد
-                    "url": f"/static/pdfs/Safety%20Data%20Sheets/{safe_filename}"
-                })
-        
-        return {"results": results}
-    except Exception as e:
-        return {"error": str(e)}
+    for file in os.listdir(SDS_PATH):
+        if file.lower().endswith(".pdf") and query in file.lower():
+            # تحويل المسار إلى رابط متوافق مع المتصفح
+            encoded_name = urllib.parse.quote(file)
+            results.append({
+                "name": file.replace(".pdf", ""),
+                "url": f"/static/pdfs/Safety_Data_Sheets/{encoded_name}"
+            })
+    
+    return {"results": results}
