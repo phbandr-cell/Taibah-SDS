@@ -4,183 +4,742 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>نظام إدارة بيانات السلامة | SDS Management</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <title>البحث عن بيانات السلامة | Taibah SDS</title>
     <style>
         :root {
-            --primary-color: #004a99;
-            --secondary-color: #008148;
-            --bg-color: #f4f7f6;
+            --ink: #111827;
+            --muted: #5f6d7e;
+            --soft: #f4f7fb;
+            --surface: #ffffff;
+            --line: #dbe3ec;
+            --blue: #004a99;
+            --blue-soft: #eaf3ff;
+            --green: #008148;
+            --green-soft: #e8f7f0;
+            --amber: #b36b00;
+            --danger: #b42318;
+            --shadow: 0 22px 55px rgba(17, 24, 39, 0.11);
+        }
+
+        * {
+            box-sizing: border-box;
         }
 
         body {
-            font-family: 'Cairo', sans-serif;
-            background-color: var(--bg-color);
             margin: 0;
-            padding: 0;
-            text-align: center;
+            min-height: 100vh;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at top right, rgba(0, 74, 153, 0.13), transparent 330px),
+                linear-gradient(180deg, #f8fbff 0, var(--soft) 430px, #eef3f8 100%);
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
         }
 
-        .header {
-            background: white;
-            padding: 20px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        button,
+        input {
+            font: inherit;
+        }
+
+        .shell {
+            width: min(1120px, calc(100% - 32px));
+            margin: 0 auto;
+        }
+
+        .topbar {
+            min-height: 86px;
             display: flex;
-            flex-direction: column;
             align-items: center;
-        }
-
-        .logo {
-            max-width: 150px;
-            margin-bottom: 10px;
-        }
-
-        .titles {
-            display: flex;
             justify-content: space-between;
-            width: 90%;
-            max-width: 800px;
-            margin-top: 10px;
-            border-top: 2px solid var(--primary-color);
-            padding-top: 10px;
+            gap: 18px;
+            padding: 12px 0;
         }
 
-        .titles h2 {
-            font-size: 1.1rem;
-            color: var(--primary-color);
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            min-width: 0;
+        }
+
+        .brand img {
+            width: 62px;
+            height: 62px;
+            object-fit: contain;
+            flex: 0 0 auto;
+        }
+
+        .brand h1 {
             margin: 0;
+            font-size: clamp(1.3rem, 2vw, 1.8rem);
+            line-height: 1.25;
         }
 
-        .search-container {
-            margin: 40px auto;
-            width: 90%;
-            max-width: 600px;
+        .brand p {
+            margin: 3px 0 0;
+            color: var(--muted);
+            font-size: 0.96rem;
         }
 
-        input[type="text"] {
-            width: 100%;
-            padding: 15px;
-            border: 2px solid #ddd;
-            border-radius: 30px;
-            font-size: 1.1rem;
-            outline: none;
-            transition: 0.3s;
+        .status-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 38px;
+            padding: 0 14px;
+            border: 1px solid rgba(0, 129, 72, 0.25);
+            border-radius: 999px;
+            background: rgba(232, 247, 240, 0.92);
+            color: #075f39;
+            font-weight: 850;
+            white-space: nowrap;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--green);
+        }
+
+        .home {
+            padding: 42px 0 48px;
+        }
+
+        .title-block {
             text-align: center;
         }
 
-        input[type="text"]:focus {
-            border-color: var(--primary-color);
-            box-shadow: 0 0 8px rgba(0, 74, 153, 0.2);
+        .title-block h2 {
+            margin: 0;
+            font-size: clamp(2rem, 4vw, 3.55rem);
+            line-height: 1.14;
+            letter-spacing: 0;
         }
 
-        #results {
-            margin: 20px auto;
-            width: 90%;
-            max-width: 600px;
+        .search-card {
+            width: min(920px, 100%);
+            margin: 28px auto 0;
+            border: 1px solid rgba(0, 74, 153, 0.16);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: var(--shadow);
+            padding: 18px;
+        }
+
+        .search-input-wrap {
+            position: relative;
+        }
+
+        .search-input-wrap::before {
+            content: "⌕";
+            position: absolute;
+            inset-inline-start: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--blue);
+            font-size: 1.7rem;
+            line-height: 1;
+        }
+
+        .search-input {
+            width: 100%;
+            min-height: 66px;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            outline: 1px solid var(--line);
+            background: #fff;
+            color: var(--ink);
+            padding: 0 56px 0 20px;
+            font-size: 1.18rem;
+            text-align: right;
+        }
+
+        .search-input:focus {
+            border-color: var(--blue);
+            outline-color: rgba(0, 74, 153, 0.22);
+            box-shadow: 0 0 0 5px rgba(0, 74, 153, 0.13);
+        }
+
+        .stats-strip {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px auto 0;
+        }
+
+        .stat-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 38px;
+            padding: 0 13px;
+            border: 1px solid rgba(0, 74, 153, 0.14);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.78);
+            color: var(--muted);
+        }
+
+        .stat-pill strong {
+            color: var(--blue);
+        }
+
+        .hazard-panel {
+            width: min(920px, 100%);
+            margin: 22px auto 0;
+            border: 1px solid rgba(180, 35, 24, 0.14);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 16px;
+        }
+
+        .hazard-panel h3 {
+            margin: 0 0 12px;
+            color: var(--ink);
+            font-size: 1rem;
+            font-weight: 850;
+            text-align: center;
+        }
+
+        .hazard-legend {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .hazard-legend-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 44px;
+            padding: 0 10px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: #fff;
+            color: var(--ink);
+            font-weight: 800;
+        }
+
+        .hazard-legend-item small {
+            color: var(--muted);
+            font-weight: 750;
+        }
+
+        .results-panel {
+            width: min(920px, 100%);
+            margin: 22px auto 0;
+            border: 1px solid rgba(17, 24, 39, 0.08);
+            border-radius: 8px;
+            background: var(--surface);
+            box-shadow: 0 14px 36px rgba(17, 24, 39, 0.08);
+            overflow: hidden;
+        }
+
+        .results-panel[hidden] {
+            display: none;
+        }
+
+        .results-head {
+            min-height: 62px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .results-head h3 {
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        .results-head span {
+            color: var(--blue);
+            font-weight: 900;
+            white-space: nowrap;
+        }
+
+        .results {
+            min-height: 290px;
         }
 
         .result-item {
-            background: white;
-            padding: 20px;
-            margin-bottom: 15px;
-            border-radius: 12px;
-            display: flex;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto;
+            gap: 16px;
             align-items: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-            transition: transform 0.2s;
+            min-height: 104px;
+            padding: 18px;
+            border-bottom: 1px solid var(--line);
         }
 
-        .result-item:hover {
-            transform: translateY(-3px);
+        .result-item:last-child {
+            border-bottom: 0;
         }
 
-        .chemical-name {
-            font-weight: bold;
-            color: #333;
-            font-size: 1.1rem;
+        .result-name {
+            display: block;
+            font-size: 1.08rem;
+            font-weight: 900;
+            line-height: 1.45;
+            overflow-wrap: anywhere;
         }
 
-        .view-btn {
-            background-color: var(--secondary-color);
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .view-btn:hover {
-            background-color: #006336;
-        }
-
-        .footer {
-            margin-top: 50px;
-            padding: 20px;
-            color: #777;
+        .meta-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            margin-top: 9px;
+            color: var(--muted);
             font-size: 0.9rem;
+        }
+
+        .tag,
+        .source-badge {
+            display: inline-flex;
+            align-items: center;
+            min-height: 27px;
+            padding: 0 10px;
+            border-radius: 999px;
+            font-weight: 850;
+        }
+
+        .tag {
+            background: var(--green-soft);
+            color: #075f39;
+        }
+
+        .source-badge {
+            background: var(--blue-soft);
+            color: var(--blue);
+        }
+
+        .source-badge.estimated {
+            background: #fff7e8;
+            color: var(--amber);
+        }
+
+        .hazard-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+            margin-top: 13px;
+        }
+
+        .hazard-label {
+            color: var(--muted);
+            font-size: 0.86rem;
+            font-weight: 850;
+        }
+
+        .ghs-list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px;
+            direction: ltr;
+        }
+
+        .ghs-pictogram {
+            width: 42px;
+            height: 42px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid #de1f26;
+            border-radius: 3px;
+            background: #fff;
+            color: #111827;
+            transform: rotate(45deg);
+            flex: 0 0 auto;
+        }
+
+        .ghs-pictogram.neutral {
+            border-color: #9aa8b7;
+            color: var(--muted);
+            background: #f8fafc;
+        }
+
+        .ghs-symbol {
+            transform: rotate(-45deg);
+            font-size: 1.18rem;
+            font-weight: 950;
+            line-height: 1;
+        }
+
+        .ghs-symbol.small {
+            font-size: 0.66rem;
+            letter-spacing: 0;
+        }
+
+        .pdf-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 44px;
+            border-radius: 8px;
+            padding: 0 16px;
+            border: 1px solid var(--green);
+            background: var(--green);
+            color: #fff;
+            font-weight: 900;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .pdf-link:hover {
+            background: #006c3d;
+        }
+
+        .empty-state,
+        .loading-state,
+        .error-state {
+            min-height: 290px;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            padding: 34px;
+            color: var(--muted);
+            line-height: 1.8;
+        }
+
+        .error-state {
+            color: var(--danger);
+        }
+
+        @media (max-width: 760px) {
+            .shell {
+                width: min(100% - 20px, 1120px);
+            }
+
+            .topbar {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            .home {
+                padding-top: 28px;
+            }
+
+            .search-card {
+                padding: 12px;
+            }
+
+            .search-input {
+                min-height: 58px;
+                font-size: 1rem;
+            }
+
+            .result-item {
+                grid-template-columns: 1fr;
+            }
+
+            .pdf-link {
+                width: 100%;
+            }
+
+            .results-head,
+            .hazard-row {
+                align-items: flex-start;
+                flex-direction: column;
+            }
         }
     </style>
 </head>
 
 <body>
-
-    <div class="header">
-        <img src="/Taibah_Logo.png" alt="Taibah University Logo" class="logo">
-        <div class="titles">
-            <h2>وحدة الأجهزة والمعامل</h2>
-            <h2>Instruments and Labs Unit</h2>
+    <header class="shell topbar">
+        <div class="brand">
+            <img src="/Taibah_Logo.png" alt="Taibah University Logo">
+            <div>
+                <h1>نظام بيانات السلامة SDS</h1>
+                <p>كلية الصيدلة - جامعة طيبة | Pharmacy College</p>
+            </div>
         </div>
-    </div>
+        <div class="status-pill" aria-live="polite">
+            <span class="status-dot"></span>
+            <span id="healthLabel">جاري التحميل</span>
+        </div>
+    </header>
 
-    <div class="search-container">
-        <h1>البحث عن بيانات السلامة (SDS)</h1>
-        <input type="text" id="searchInput" placeholder="اكتب اسم المادة بالإنجليزية (مثلاً: Ethanol)..."
-            oninput="search()">
-    </div>
+    <main class="shell home">
+        <section class="title-block">
+            <h2>البحث عن بيانات السلامة (SDS)</h2>
+        </section>
 
-    <div id="results"></div>
+        <section class="search-card" aria-label="البحث">
+            <div class="search-input-wrap">
+                <input class="search-input" type="search" id="searchInput"
+                    placeholder="اكتب اسم المادة بالإنجليزية، مثال: Ethanol" autocomplete="off" autofocus>
+            </div>
+        </section>
 
-    <div class="footer">
-        © 2024 كلية الصيدلة - جامعة طيبة | Pharmacy College - Taibah University
-    </div>
+        <section class="stats-strip" aria-label="إحصاءات المكتبة">
+            <div class="stat-pill"><strong id="sdsCount">-</strong><span>ملف SDS</span></div>
+            <div class="stat-pill"><strong id="sizeCount">-</strong><span>MB</span></div>
+            <div class="stat-pill"><strong id="pdfHazardCount">-</strong><span>رمز من PDF</span></div>
+        </section>
+
+        <section class="hazard-panel" aria-label="مفتاح الرموز التحذيرية">
+            <h3>مفتاح الرموز التحذيرية</h3>
+            <div class="hazard-legend" id="hazardLegend"></div>
+        </section>
+
+        <section class="results-panel" id="resultsPanel" aria-label="نتائج البحث" hidden>
+            <div class="results-head">
+                <h3 id="resultsTitle">ملفات SDS</h3>
+                <span id="resultCount">0 نتيجة</span>
+            </div>
+            <div class="results" id="results" aria-live="polite">
+            </div>
+        </section>
+    </main>
 
     <script>
-        async function search() {
-            const query = document.getElementById('searchInput').value;
-            const resultsDiv = document.getElementById('results');
+        const state = {
+            query: '',
+            results: [],
+            hazards: {}
+        };
 
-            if (query.length < 2) {
-                resultsDiv.innerHTML = '';
+        const searchInput = document.getElementById('searchInput');
+        const resultsPanel = document.getElementById('resultsPanel');
+        const resultsDiv = document.getElementById('results');
+        const resultCount = document.getElementById('resultCount');
+        const resultsTitle = document.getElementById('resultsTitle');
+        const hazardLegend = document.getElementById('hazardLegend');
+
+        function debounce(fn, wait = 220) {
+            let timeoutId;
+            return (...args) => {
+                window.clearTimeout(timeoutId);
+                timeoutId = window.setTimeout(() => fn(...args), wait);
+            };
+        }
+
+        function clearNode(node) {
+            while (node.firstChild) {
+                node.removeChild(node.firstChild);
+            }
+        }
+
+        function renderMessage(className, message) {
+            resultsPanel.hidden = false;
+            clearNode(resultsDiv);
+            const div = document.createElement('div');
+            div.className = className;
+            div.textContent = message;
+            resultsDiv.appendChild(div);
+        }
+
+        function makeMeta(text) {
+            const span = document.createElement('span');
+            span.textContent = text;
+            return span;
+        }
+
+        function createPictogram(hazard) {
+            const icon = document.createElement('span');
+            icon.className = `ghs-pictogram${hazard.id === 'review' ? ' neutral' : ''}`;
+            icon.title = `${hazard.code} - ${hazard.label_ar} | ${hazard.label_en}`;
+            icon.setAttribute('aria-label', icon.title);
+
+            const symbol = document.createElement('span');
+            symbol.className = `ghs-symbol${hazard.symbol.length > 2 ? ' small' : ''}`;
+            symbol.textContent = hazard.symbol;
+
+            icon.appendChild(symbol);
+            return icon;
+        }
+
+        function sourceLabel(item) {
+            const source = item.hazard_evidence?.source;
+            if (source === 'pdf_pictograms') {
+                return 'من رموز GHS في PDF';
+            }
+            if (source === 'pdf_h_statements') {
+                return 'من عبارات H في PDF';
+            }
+            return 'تقديري من الاسم';
+        }
+
+        function evidenceLabel(item) {
+            const evidence = item.hazard_evidence || {};
+            if (evidence.pictogram_codes && evidence.pictogram_codes.length) {
+                return evidence.pictogram_codes.join(', ');
+            }
+            if (evidence.h_codes && evidence.h_codes.length) {
+                return evidence.h_codes.slice(0, 5).join(', ');
+            }
+            return '';
+        }
+
+        function setResultsTitle(count) {
+            const query = state.query.trim();
+            resultsTitle.textContent = query ? `نتائج البحث عن "${query}"` : 'ملفات SDS';
+            resultCount.textContent = `${count} نتيجة`;
+        }
+
+        function hideResults() {
+            state.results = [];
+            clearNode(resultsDiv);
+            resultCount.textContent = '0 نتيجة';
+            resultsTitle.textContent = 'ملفات SDS';
+            resultsPanel.hidden = true;
+        }
+
+        function renderResults() {
+            const items = state.results;
+            resultsPanel.hidden = false;
+            setResultsTitle(items.length);
+            clearNode(resultsDiv);
+
+            if (!items.length) {
+                renderMessage('empty-state', 'لا توجد نتائج مطابقة.');
                 return;
             }
 
-            try {
-                const response = await fetch(`/search-sds/${query}`);
-                const data = await response.json();
+            items.forEach(item => {
+                const row = document.createElement('article');
+                row.className = 'result-item';
 
-                resultsDiv.innerHTML = '';
+                const main = document.createElement('div');
+                const name = document.createElement('span');
+                name.className = 'result-name';
+                name.textContent = item.name;
 
-                if (data.results && data.results.length > 0) {
-                    data.results.forEach(result => {
-                        const div = document.createElement('div');
-                        div.className = 'result-item';
+                const meta = document.createElement('div');
+                meta.className = 'meta-row';
 
-                        // التعديل الجوهري هنا: إضافة target="_blank" لفتح الملف في صفحة جديدة بالكامل
-                        div.innerHTML = `
-                            <span class="chemical-name">${result.name}</span>
-                            <a href="${result.url}" target="_blank" rel="noopener noreferrer" class="view-btn">عرض الملف PDF</a>
-                        `;
-                        resultsDiv.appendChild(div);
-                    });
-                } else {
-                    resultsDiv.innerHTML = '<p style="color:red;">عذراً، لم يتم العثور على نتائج.</p>';
+                const category = document.createElement('span');
+                category.className = 'tag';
+                category.textContent = item.category;
+
+                const source = document.createElement('span');
+                source.className = `source-badge${item.hazard_source === 'pdf' ? '' : ' estimated'}`;
+                source.textContent = sourceLabel(item);
+
+                meta.appendChild(category);
+                meta.appendChild(source);
+                meta.appendChild(makeMeta(`${item.size_kb} KB`));
+                meta.appendChild(makeMeta(item.filename));
+
+                const evidence = evidenceLabel(item);
+                if (evidence) {
+                    meta.appendChild(makeMeta(evidence));
                 }
+
+                const hazards = document.createElement('div');
+                hazards.className = 'hazard-row';
+
+                const hazardLabel = document.createElement('span');
+                hazardLabel.className = 'hazard-label';
+                hazardLabel.textContent = 'رموز التحذير';
+
+                const hazardList = document.createElement('div');
+                hazardList.className = 'ghs-list';
+                (item.hazards || []).forEach(hazard => {
+                    hazardList.appendChild(createPictogram(hazard));
+                });
+
+                hazards.appendChild(hazardLabel);
+                hazards.appendChild(hazardList);
+
+                main.appendChild(name);
+                main.appendChild(meta);
+                main.appendChild(hazards);
+
+                const link = document.createElement('a');
+                link.className = 'pdf-link';
+                link.href = item.url;
+                link.target = '_blank';
+                link.rel = 'noopener noreferrer';
+                link.textContent = 'فتح PDF';
+
+                row.appendChild(main);
+                row.appendChild(link);
+                resultsDiv.appendChild(row);
+            });
+        }
+
+        function renderHazardLegend() {
+            clearNode(hazardLegend);
+            Object.values(state.hazards)
+                .sort((a, b) => b.count - a.count)
+                .forEach(hazard => {
+                    const item = document.createElement('div');
+                    item.className = 'hazard-legend-item';
+
+                    const label = document.createElement('span');
+                    label.textContent = hazard.label_ar;
+
+                    const count = document.createElement('small');
+                    count.textContent = hazard.count;
+
+                    item.appendChild(createPictogram(hazard));
+                    item.appendChild(label);
+                    item.appendChild(count);
+                    hazardLegend.appendChild(item);
+                });
+        }
+
+        async function loadStats() {
+            const response = await fetch('/api/stats');
+            if (!response.ok) {
+                throw new Error('Stats request failed');
+            }
+            const data = await response.json();
+            state.hazards = data.hazards || {};
+            document.getElementById('sdsCount').textContent = data.sds_count ?? '-';
+            document.getElementById('sizeCount').textContent = data.total_size_mb ?? '-';
+            document.getElementById('pdfHazardCount').textContent = data.hazard_sources?.pdf ?? 0;
+            document.getElementById('healthLabel').textContent = `${data.sds_count} ملف متاح`;
+            renderHazardLegend();
+        }
+
+        async function runSearch(query) {
+            state.query = query.trim();
+
+            if (state.query.length < 2) {
+                hideResults();
+                return;
+            }
+
+            renderMessage('loading-state', 'جاري البحث...');
+
+            try {
+                const response = await fetch(`/api/search-sds?q=${encodeURIComponent(state.query)}&limit=100`);
+                if (!response.ok) {
+                    throw new Error('Search request failed');
+                }
+                const data = await response.json();
+                state.results = data.results || [];
+                renderResults();
             } catch (error) {
-                console.error('Error:', error);
+                console.error(error);
+                renderMessage('error-state', 'تعذر تنفيذ البحث.');
             }
         }
+
+        const debouncedSearch = debounce(() => runSearch(searchInput.value));
+        searchInput.addEventListener('input', debouncedSearch);
+
+        async function boot() {
+            try {
+                await loadStats();
+                hideResults();
+            } catch (error) {
+                console.error(error);
+                hideResults();
+                document.getElementById('healthLabel').textContent = 'غير متاح';
+            }
+        }
+
+        boot();
     </script>
 </body>
 

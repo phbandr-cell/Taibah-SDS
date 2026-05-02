@@ -1,0 +1,8412 @@
+{
+  "generated_by": "scripts/build_sds_hazards.py",
+  "description": "GHS hazard indicators extracted from SDS PDF text. Review official SDS before safety decisions.",
+  "total_files": 319,
+  "errors": {},
+  "records": {
+    "(S)-(-)-Nicotine.pdf": {
+      "filename": "(S)-(-)-Nicotine.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H310",
+        "H330"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 13340
+    },
+    "(±) - Menthol.pdf": {
+      "filename": "(±) - Menthol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10551
+    },
+    "-Isopropyl-myristate-.pdf": {
+      "filename": "-Isopropyl-myristate-.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12259
+    },
+    "1,10-Phenanthroline monohydrate.pdf": {
+      "filename": "1,10-Phenanthroline monohydrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H301",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 10885
+    },
+    "1-Methyl-2-Pyrrolidinone.pdf": {
+      "filename": "1-Methyl-2-Pyrrolidinone.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H335",
+        "H360D"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11462
+    },
+    "1-Oleoyl-rac-glycerol.pdf": {
+      "filename": "1-Oleoyl-rac-glycerol.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11460
+    },
+    "2-2 ethoxyethoxy-ethanol.pdf": {
+      "filename": "2-2 ethoxyethoxy-ethanol.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11056
+    },
+    "2-Methylpropan 2- ol.pdf": {
+      "filename": "2-Methylpropan 2- ol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319",
+        "H332",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12170
+    },
+    "2-Naphthol.pdf": {
+      "filename": "2-Naphthol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H317",
+        "H318",
+        "H332",
+        "H400"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11466
+    },
+    "2-Propanol.pdf": {
+      "filename": "2-Propanol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319",
+        "H336"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11475
+    },
+    "2`-Hydroxyacetophenone.pdf": {
+      "filename": "2`-Hydroxyacetophenone.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11466
+    },
+    "4-(Dimethylamino)-benzaldehyde.pdf": {
+      "filename": "4-(Dimethylamino)-benzaldehyde.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9643
+    },
+    "4-Aminophenol.pdf": {
+      "filename": "4-Aminophenol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H332",
+        "H341",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11454
+    },
+    "_di-SodiumHydrogenOrthoPhosphateAnhydrous-.pdf": {
+      "filename": "_di-SodiumHydrogenOrthoPhosphateAnhydrous-.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10007
+    },
+    "Acetaldehyde.pdf": {
+      "filename": "Acetaldehyde.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H224",
+        "H302",
+        "H319",
+        "H335",
+        "H341",
+        "H350"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11959
+    },
+    "Acetic acid anhydride.pdf": {
+      "filename": "Acetic acid anhydride.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS05",
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H226",
+        "H302",
+        "H314",
+        "H315",
+        "H318",
+        "H319",
+        "H330",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 12907
+    },
+    "Acetic acid ethyl ester.pdf": {
+      "filename": "Acetic acid ethyl ester.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319",
+        "H336"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11655
+    },
+    "Acetic acid.pdf": {
+      "filename": "Acetic acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS05"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H226",
+        "H314",
+        "H315",
+        "H318",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        }
+      ],
+      "text_extract_length": 12150
+    },
+    "Acetone.pdf": {
+      "filename": "Acetone.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319",
+        "H336"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10753
+    },
+    "Acetonitrile ROTISOLV® HPLC,.pdf": {
+      "filename": "Acetonitrile ROTISOLV® HPLC,.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H302",
+        "H312",
+        "H319",
+        "H332"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11215
+    },
+    "Acetonitrile.pdf": {
+      "filename": "Acetonitrile.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H302",
+        "H312",
+        "H319",
+        "H332"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11215
+    },
+    "Agar Agar powder.pdf": {
+      "filename": "Agar Agar powder.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9432
+    },
+    "Agar, Bacteriological, Ultrapure, Thermo Scientific.pdf": {
+      "filename": "Agar, Bacteriological, Ultrapure, Thermo Scientific.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10251
+    },
+    "Agar-Agar Ph. Eur., USP, for microbiology.pdf": {
+      "filename": "Agar-Agar Ph. Eur., USP, for microbiology.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9559
+    },
+    "Ammonia solution.pdf": {
+      "filename": "Ammonia solution.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS05",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H290",
+        "H314",
+        "H318",
+        "H335",
+        "H400",
+        "H410",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12882
+    },
+    "Ammonium bicarbonate.pdf": {
+      "filename": "Ammonium bicarbonate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10806
+    },
+    "Ammonium chloride.pdf": {
+      "filename": "Ammonium chloride.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10022
+    },
+    "Ammonium iron(III) citrate.pdf": {
+      "filename": "Ammonium iron(III) citrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10298
+    },
+    "Ammonium monovanadate.pdf": {
+      "filename": "Ammonium monovanadate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H301",
+        "H319",
+        "H332",
+        "H372",
+        "H400",
+        "H410",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 11281
+    },
+    "Ammonium thiocyanate solutio.pdf": {
+      "filename": "Ammonium thiocyanate solutio.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H312",
+        "H332",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9238
+    },
+    "Aniline phthalate spray solution.pdf": {
+      "filename": "Aniline phthalate spray solution.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H301",
+        "H311",
+        "H315",
+        "H317",
+        "H318",
+        "H319",
+        "H331",
+        "H335",
+        "H336",
+        "H341",
+        "H351",
+        "H372",
+        "H373",
+        "H400",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11643
+    },
+    "Ascorbic acid.pdf": {
+      "filename": "Ascorbic acid.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9307
+    },
+    "Atropine sulfate monohydrate.pdf": {
+      "filename": "Atropine sulfate monohydrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H300",
+        "H330"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 10935
+    },
+    "Atropine sulfate salt monohydrate.pdf": {
+      "filename": "Atropine sulfate salt monohydrate.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H300",
+        "H330"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 10869
+    },
+    "Atropine.pdf": {
+      "filename": "Atropine.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H300",
+        "H310",
+        "H330"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 10721
+    },
+    "AZIDE BLOOD AGAR BASE.pdf": {
+      "filename": "AZIDE BLOOD AGAR BASE.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H300",
+        "H310",
+        "H400",
+        "H410",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 11555
+    },
+    "Azide Dextrose Broth for microbiology.pdf": {
+      "filename": "Azide Dextrose Broth for microbiology.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H300",
+        "H302",
+        "H310",
+        "H330",
+        "H373",
+        "H400",
+        "H410",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11318
+    },
+    "Bacillus cereus Supplement lyophilised.pdf": {
+      "filename": "Bacillus cereus Supplement lyophilised.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9813
+    },
+    "Baird Parker Agar.pdf": {
+      "filename": "Baird Parker Agar.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H315",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10364
+    },
+    "Barfoed's Reagent.pdf": {
+      "filename": "Barfoed's Reagent.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS02",
+        "GHS05",
+        "GHS06",
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H290",
+        "H301",
+        "H311",
+        "H314",
+        "H315",
+        "H319",
+        "H331",
+        "H370",
+        "H371"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11393
+    },
+    "BARIUM CHLORIDE DIHYDRATE EXTRA PURE.pdf": {
+      "filename": "BARIUM CHLORIDE DIHYDRATE EXTRA PURE.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H301",
+        "H332"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 11638
+    },
+    "Barium chloride dihydrate.pdf": {
+      "filename": "Barium chloride dihydrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H301",
+        "H319",
+        "H332"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 10977
+    },
+    "Benzaldehyde.pdf": {
+      "filename": "Benzaldehyde.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9755
+    },
+    "Benzene.pdf": {
+      "filename": "Benzene.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H304",
+        "H315",
+        "H319",
+        "H340",
+        "H350",
+        "H372",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12679
+    },
+    "Benzoic acid.pdf": {
+      "filename": "Benzoic acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H318",
+        "H372"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 11711
+    },
+    "Benzophenone.pdf": {
+      "filename": "Benzophenone.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H350",
+        "H373",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 11353
+    },
+    "Benzoyl chloride.pdf": {
+      "filename": "Benzoyl chloride.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H312",
+        "H314",
+        "H317",
+        "H318",
+        "H331"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 11707
+    },
+    "Benzyl alcohol.pdf": {
+      "filename": "Benzyl alcohol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H332"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9829
+    },
+    "Bile Esculin Azide Agar.pdf": {
+      "filename": "Bile Esculin Azide Agar.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H300",
+        "H302",
+        "H310",
+        "H330",
+        "H373",
+        "H400",
+        "H410",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10851
+    },
+    "Bismuth subnitrate.pdf": {
+      "filename": "Bismuth subnitrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11686
+    },
+    "Boric acid.pdf": {
+      "filename": "Boric acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS08"
+      ],
+      "h_codes": [
+        "H360FD"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 10494
+    },
+    "Brain-Heart-Infusion Broth for microbiology.pdf": {
+      "filename": "Brain-Heart-Infusion Broth for microbiology.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9689
+    },
+    "Brilliant Green Agar (Modified).pdf": {
+      "filename": "Brilliant Green Agar (Modified).pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12803
+    },
+    "Brucine.pdf": {
+      "filename": "Brucine.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11590
+    },
+    "Buffer Solution.pdf": {
+      "filename": "Buffer Solution.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10336
+    },
+    "Cadmium chloride hydrate.pdf": {
+      "filename": "Cadmium chloride hydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11868
+    },
+    "CADMIUM CHLORIDE MONOHYDRATE.pdf": {
+      "filename": "CADMIUM CHLORIDE MONOHYDRATE.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H301",
+        "H330",
+        "H340",
+        "H350",
+        "H360FD",
+        "H372",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 9636
+    },
+    "CADMIUM CHLORIDE, DIHYDRATE.pdf": {
+      "filename": "CADMIUM CHLORIDE, DIHYDRATE.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H301",
+        "H312",
+        "H332",
+        "H350",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11754
+    },
+    "Cadmium Chloride.pdf": {
+      "filename": "Cadmium Chloride.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H301",
+        "H330",
+        "H340",
+        "H350",
+        "H360FD",
+        "H372",
+        "H373",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 11205
+    },
+    "Cadmium iodide.pdf": {
+      "filename": "Cadmium iodide.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11202
+    },
+    "Cadmium powder.pdf": {
+      "filename": "Cadmium powder.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H330",
+        "H341",
+        "H350",
+        "H372",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 10876
+    },
+    "Caffeine.pdf": {
+      "filename": "Caffeine.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10584
+    },
+    "calcium chloride anhydrous.pdf": {
+      "filename": "calcium chloride anhydrous.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10520
+    },
+    "Calcium chloride.pdf": {
+      "filename": "Calcium chloride.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10520
+    },
+    "calcium hydroxide pure.pdf": {
+      "filename": "calcium hydroxide pure.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H318",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11295
+    },
+    "Carbol gentian violet solution for microscopy.pdf": {
+      "filename": "Carbol gentian violet solution for microscopy.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H226",
+        "H301",
+        "H302",
+        "H311",
+        "H314",
+        "H315",
+        "H318",
+        "H319",
+        "H331",
+        "H341",
+        "H351",
+        "H373",
+        "H400",
+        "H410",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11573
+    },
+    "Carboxymethyl cellulose.pdf": {
+      "filename": "Carboxymethyl cellulose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10557
+    },
+    "caster oil.pdf": {
+      "filename": "caster oil.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10498
+    },
+    "Castor Oil.pdf": {
+      "filename": "Castor Oil.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 13602
+    },
+    "Cetrimide Agar.pdf": {
+      "filename": "Cetrimide Agar.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H315",
+        "H318",
+        "H335",
+        "H373",
+        "H400",
+        "H410",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 11620
+    },
+    "CHARCOAL AGAR.pdf": {
+      "filename": "CHARCOAL AGAR.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10488
+    },
+    "Chitosan.pdf": {
+      "filename": "Chitosan.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9911
+    },
+    "Chloroform.pdf": {
+      "filename": "Chloroform.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06",
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H315",
+        "H319",
+        "H331",
+        "H351",
+        "H372"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 11674
+    },
+    "Chloroplatinic acid hexahydrate.pdf": {
+      "filename": "Chloroplatinic acid hexahydrate.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H301",
+        "H314",
+        "H317",
+        "H318",
+        "H334"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10878
+    },
+    "Chromium(III) nitrate nonahydrate.pdf": {
+      "filename": "Chromium(III) nitrate nonahydrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS03",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS03",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H272",
+        "H315",
+        "H317",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "oxidizer",
+          "code": "GHS03",
+          "label_ar": "مؤكسد",
+          "label_en": "Oxidizer",
+          "symbol": "O"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11384
+    },
+    "Citric acid.pdf": {
+      "filename": "Citric acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10438
+    },
+    "CLED Agar for microbiology.pdf": {
+      "filename": "CLED Agar for microbiology.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10312
+    },
+    "Clove Oil.pdf": {
+      "filename": "Clove Oil.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H304",
+        "H315",
+        "H317",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10431
+    },
+    "Cocoa Butter.pdf": {
+      "filename": "Cocoa Butter.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12722
+    },
+    "Columbia Blood Agar Base.pdf": {
+      "filename": "Columbia Blood Agar Base.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12581
+    },
+    "Copper(II) sulphate pentahydrate.pdf": {
+      "filename": "Copper(II) sulphate pentahydrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H318",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11297
+    },
+    "Copper(II) sulphate.pdf": {
+      "filename": "Copper(II) sulphate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H315",
+        "H319",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11088
+    },
+    "D(+)-Glucose monohydrate.pdf": {
+      "filename": "D(+)-Glucose monohydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9505
+    },
+    "D(+)-Glucose.pdf": {
+      "filename": "D(+)-Glucose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10040
+    },
+    "D(+)-Maltose monohydrate.pdf": {
+      "filename": "D(+)-Maltose monohydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9756
+    },
+    "D(+)-Saccharose.pdf": {
+      "filename": "D(+)-Saccharose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9972
+    },
+    "D(-)-Fructose.pdf": {
+      "filename": "D(-)-Fructose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10007
+    },
+    "D(-)-Tartaric acid.pdf": {
+      "filename": "D(-)-Tartaric acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05"
+      ],
+      "mapped_codes": [],
+      "h_codes": [
+        "H318"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        }
+      ],
+      "text_extract_length": 10334
+    },
+    "D-(+)-Glucose, anhydrous.pdf": {
+      "filename": "D-(+)-Glucose, anhydrous.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11055
+    },
+    "D-FRUCTOSE.pdf": {
+      "filename": "D-FRUCTOSE.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10007
+    },
+    "D-Lactose Monohydrate.pdf": {
+      "filename": "D-Lactose Monohydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9904
+    },
+    "D-Mannitol.pdf": {
+      "filename": "D-Mannitol.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9992
+    },
+    "Dextrose anhydrous.pdf": {
+      "filename": "Dextrose anhydrous.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10878
+    },
+    "Dextrose monohydrate.pdf": {
+      "filename": "Dextrose monohydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11140
+    },
+    "di-Sodium hydrogen phosphate.pdf": {
+      "filename": "di-Sodium hydrogen phosphate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10154
+    },
+    "di-Sodium oxalate.pdf": {
+      "filename": "di-Sodium oxalate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H312"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9364
+    },
+    "Diaion.pdf": {
+      "filename": "Diaion.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10290
+    },
+    "Dichloromethane ROTISOLV.pdf": {
+      "filename": "Dichloromethane ROTISOLV.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H336",
+        "H351",
+        "H420"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10848
+    },
+    "Dichloromethane.pdf": {
+      "filename": "Dichloromethane.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H336",
+        "H351",
+        "H420"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10848
+    },
+    "Dimethyl sulfoxide ROTISOLV.pdf": {
+      "filename": "Dimethyl sulfoxide ROTISOLV.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9956
+    },
+    "Dimethyl sulfoxide.pdf": {
+      "filename": "Dimethyl sulfoxide.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9956
+    },
+    "Dimethyl Sulphoxide.pdf": {
+      "filename": "Dimethyl Sulphoxide.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9956
+    },
+    "Diphenylamine.pdf": {
+      "filename": "Diphenylamine.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H301",
+        "H311",
+        "H331",
+        "H373",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 11284
+    },
+    "Disodium hydrogenorthophosphate.pdf": {
+      "filename": "Disodium hydrogenorthophosphate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H331"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 11150
+    },
+    "DNase Test Agar for microbiology.pdf": {
+      "filename": "DNase Test Agar for microbiology.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10240
+    },
+    "Eosin Methylene Blue (EMB) Agar.pdf": {
+      "filename": "Eosin Methylene Blue (EMB) Agar.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 13110
+    },
+    "EPHEDRINE HYDROCHLORIDE.pdf": {
+      "filename": "EPHEDRINE HYDROCHLORIDE.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10396
+    },
+    "ethanediol.pdf": {
+      "filename": "ethanediol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H373"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11025
+    },
+    "Ethanol 96 %,.pdf": {
+      "filename": "Ethanol 96 %,.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10980
+    },
+    "Ethanol SOLVAGREEN®.pdf": {
+      "filename": "Ethanol SOLVAGREEN®.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11491
+    },
+    "Ethanol, absolute.pdf": {
+      "filename": "Ethanol, absolute.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 13069
+    },
+    "Ethanol.pdf": {
+      "filename": "Ethanol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10980
+    },
+    "Ethoxylated-hydrogenated-castor-oil-SDS-MedChemExpress.pdf": {
+      "filename": "Ethoxylated-hydrogenated-castor-oil-SDS-MedChemExpress.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9855
+    },
+    "Ethyl Acetate.pdf": {
+      "filename": "Ethyl Acetate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319",
+        "H336"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11655
+    },
+    "Ethyl Acetoacetate.pdf": {
+      "filename": "Ethyl Acetoacetate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11977
+    },
+    "Ethyl alcohol.pdf": {
+      "filename": "Ethyl alcohol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11491
+    },
+    "Ethylenediamine tetraacetic acid.pdf": {
+      "filename": "Ethylenediamine tetraacetic acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10769
+    },
+    "Fehling's solution I.pdf": {
+      "filename": "Fehling's solution I.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H318",
+        "H400",
+        "H410",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 11768
+    },
+    "Fehling's solution II.pdf": {
+      "filename": "Fehling's solution II.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05"
+      ],
+      "mapped_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H290",
+        "H314",
+        "H315",
+        "H318",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        }
+      ],
+      "text_extract_length": 11918
+    },
+    "Ferrous chloride tetrahydrate.pdf": {
+      "filename": "Ferrous chloride tetrahydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11861
+    },
+    "Fluorescein-Sodium.pdf": {
+      "filename": "Fluorescein-Sodium.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10092
+    },
+    "Formaldehyde solution.pdf": {
+      "filename": "Formaldehyde solution.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS06",
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H301",
+        "H302",
+        "H311",
+        "H314",
+        "H315",
+        "H317",
+        "H318",
+        "H319",
+        "H330",
+        "H331",
+        "H335",
+        "H341",
+        "H350",
+        "H370",
+        "H371"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 13612
+    },
+    "Formalin.pdf": {
+      "filename": "Formalin.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS06",
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H301",
+        "H302",
+        "H311",
+        "H314",
+        "H315",
+        "H317",
+        "H318",
+        "H319",
+        "H330",
+        "H331",
+        "H335",
+        "H341",
+        "H350",
+        "H370",
+        "H371"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 13612
+    },
+    "Formamide.pdf": {
+      "filename": "Formamide.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS08"
+      ],
+      "h_codes": [
+        "H351",
+        "H360FD",
+        "H373"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 11142
+    },
+    "Fructose.pdf": {
+      "filename": "Fructose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9861
+    },
+    "Gelatine.pdf": {
+      "filename": "Gelatine.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9599
+    },
+    "Glucose.pdf": {
+      "filename": "Glucose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10040
+    },
+    "Glycerine.pdf": {
+      "filename": "Glycerine.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10394
+    },
+    "Glycerol.pdf": {
+      "filename": "Glycerol.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10661
+    },
+    "glyceryl-behenate.pdf": {
+      "filename": "glyceryl-behenate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 7869
+    },
+    "Hexachloroplatinic(IV) acid hydrate.pdf": {
+      "filename": "Hexachloroplatinic(IV) acid hydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 13156
+    },
+    "Hexadecyltrimethylammonium bromide.pdf": {
+      "filename": "Hexadecyltrimethylammonium bromide.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11869
+    },
+    "HYDEROGEN PEROXIDE.pdf": {
+      "filename": "HYDEROGEN PEROXIDE.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H226",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 13797
+    },
+    "Hydrochloric acid.pdf": {
+      "filename": "Hydrochloric acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H290",
+        "H314",
+        "H315",
+        "H318",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12918
+    },
+    "Hydrogen peroxide.pdf": {
+      "filename": "Hydrogen peroxide.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS03",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H271",
+        "H272",
+        "H302",
+        "H314",
+        "H315",
+        "H318",
+        "H319",
+        "H332",
+        "H335",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12302
+    },
+    "Hydroxylamine hydrochloride.pdf": {
+      "filename": "Hydroxylamine hydrochloride.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H330"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 12613
+    },
+    "Hydroxypropyl Methylcellulose.pdf": {
+      "filename": "Hydroxypropyl Methylcellulose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10148
+    },
+    "HYOSCYAMINE HYDROBROMIDE.pdf": {
+      "filename": "HYOSCYAMINE HYDROBROMIDE.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H301",
+        "H311",
+        "H331"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 8029
+    },
+    "Iodine bromide.pdf": {
+      "filename": "Iodine bromide.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H314",
+        "H318",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12360
+    },
+    "Iodine monobromide.pdf": {
+      "filename": "Iodine monobromide.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12028
+    },
+    "Iodine sublimated prills.pdf": {
+      "filename": "Iodine sublimated prills.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H312",
+        "H315",
+        "H319",
+        "H332",
+        "H335",
+        "H372",
+        "H400"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 14082
+    },
+    "Iodine, crystalline.pdf": {
+      "filename": "Iodine, crystalline.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11986
+    },
+    "Iodine, resublimed crystals.pdf": {
+      "filename": "Iodine, resublimed crystals.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12034
+    },
+    "Iodine.pdf": {
+      "filename": "Iodine.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H312",
+        "H315",
+        "H319",
+        "H332",
+        "H335",
+        "H372"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11612
+    },
+    "Iodoethane, stabilized.pdf": {
+      "filename": "Iodoethane, stabilized.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12789
+    },
+    "Iron(III) chloride, anhydrous.pdf": {
+      "filename": "Iron(III) chloride, anhydrous.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12280
+    },
+    "Isoamyl alcohol.pdf": {
+      "filename": "Isoamyl alcohol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS05",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H226",
+        "H315",
+        "H318",
+        "H332",
+        "H335",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11919
+    },
+    "Kligler Iron Agar for microbiology.pdf": {
+      "filename": "Kligler Iron Agar for microbiology.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10379
+    },
+    "L(+)-Arabinose.pdf": {
+      "filename": "L(+)-Arabinose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10132
+    },
+    "L(+)-Ascorbic acid ROTICHROM®.pdf": {
+      "filename": "L(+)-Ascorbic acid ROTICHROM®.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9307
+    },
+    "L(+)-Lactic acid calcium salt hydrate.pdf": {
+      "filename": "L(+)-Lactic acid calcium salt hydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10380
+    },
+    "L-a-Phosphatidylcholine.pdf": {
+      "filename": "L-a-Phosphatidylcholine.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11092
+    },
+    "L-Rhamnose monohydrate.pdf": {
+      "filename": "L-Rhamnose monohydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10413
+    },
+    "Lactose monohydrate.pdf": {
+      "filename": "Lactose monohydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11122
+    },
+    "Lactose.pdf": {
+      "filename": "Lactose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 8869
+    },
+    "Lanolin.pdf": {
+      "filename": "Lanolin.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 14305
+    },
+    "Lead(II) acetate.pdf": {
+      "filename": "Lead(II) acetate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H351",
+        "H373",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 10786
+    },
+    "Lead(II) iodide.pdf": {
+      "filename": "Lead(II) iodide.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H332",
+        "H360FD",
+        "H373",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11907
+    },
+    "Lead(II) nitrate.pdf": {
+      "filename": "Lead(II) nitrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H318",
+        "H332",
+        "H360D",
+        "H372",
+        "H373",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12117
+    },
+    "LIQUID PARAFFIN.pdf": {
+      "filename": "LIQUID PARAFFIN.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS08"
+      ],
+      "h_codes": [
+        "H304"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 17612
+    },
+    "m-Toluidine.pdf": {
+      "filename": "m-Toluidine.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12789
+    },
+    "MacConkey Agar.pdf": {
+      "filename": "MacConkey Agar.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10245
+    },
+    "Magnesium chloride.pdf": {
+      "filename": "Magnesium chloride.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9967
+    },
+    "magnesium strearate.pdf": {
+      "filename": "magnesium strearate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9648
+    },
+    "Magnesium sulphate.pdf": {
+      "filename": "Magnesium sulphate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10003
+    },
+    "Magnesium trisilicate.pdf": {
+      "filename": "Magnesium trisilicate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9766
+    },
+    "Magnesium.pdf": {
+      "filename": "Magnesium.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02"
+      ],
+      "mapped_codes": [
+        "GHS02"
+      ],
+      "h_codes": [
+        "H228",
+        "H261"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        }
+      ],
+      "text_extract_length": 10314
+    },
+    "Malt Extract standard powder.pdf": {
+      "filename": "Malt Extract standard powder.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9769
+    },
+    "Maltose monohydrate.pdf": {
+      "filename": "Maltose monohydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9814
+    },
+    "Mannitol Salt Agar.pdf": {
+      "filename": "Mannitol Salt Agar.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9873
+    },
+    "Mercurochrome, 24-27% Mercury (corrected for volatiles).pdf": {
+      "filename": "Mercurochrome, 24-27% Mercury (corrected for volatiles).pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12438
+    },
+    "Mercury(II) chloride.pdf": {
+      "filename": "Mercury(II) chloride.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H300",
+        "H310",
+        "H314",
+        "H341",
+        "H372",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 13090
+    },
+    "Mercury(II) iodide.pdf": {
+      "filename": "Mercury(II) iodide.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H300",
+        "H310",
+        "H330",
+        "H373",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 12115
+    },
+    "Methanol ROTIDRY®.pdf": {
+      "filename": "Methanol ROTIDRY®.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08"
+      ],
+      "h_codes": [
+        "H225",
+        "H301",
+        "H311",
+        "H331",
+        "H370"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 13137
+    },
+    "Methanol ROTISOLV® HPLC Gradient Grade.pdf": {
+      "filename": "Methanol ROTISOLV® HPLC Gradient Grade.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08"
+      ],
+      "h_codes": [
+        "H225",
+        "H301",
+        "H311",
+        "H331",
+        "H370",
+        "H371"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 12882
+    },
+    "methanol.pdf": {
+      "filename": "methanol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08"
+      ],
+      "h_codes": [
+        "H225",
+        "H301",
+        "H311",
+        "H331",
+        "H370"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 13137
+    },
+    "Methyl orange.pdf": {
+      "filename": "Methyl orange.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H301"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 10659
+    },
+    "Methyl red indicator solution.pdf": {
+      "filename": "Methyl red indicator solution.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11007
+    },
+    "methylcellulose.pdf": {
+      "filename": "methylcellulose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 13833
+    },
+    "Methylene blue.pdf": {
+      "filename": "Methylene blue.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10235
+    },
+    "mono-Potassium citrate.pdf": {
+      "filename": "mono-Potassium citrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10138
+    },
+    "Mueller Hinton Broth for microbiology.pdf": {
+      "filename": "Mueller Hinton Broth for microbiology.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10124
+    },
+    "Murexide.pdf": {
+      "filename": "Murexide.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11555
+    },
+    "n hexane.pdf": {
+      "filename": "n hexane.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H304",
+        "H315",
+        "H336",
+        "H372",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11606
+    },
+    "N,N-Dimethylformamide.pdf": {
+      "filename": "N,N-Dimethylformamide.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H226",
+        "H312",
+        "H319",
+        "H332",
+        "H360D"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11893
+    },
+    "N-(1-Naphthyl)ethylenediamine dihydrochloride.pdf": {
+      "filename": "N-(1-Naphthyl)ethylenediamine dihydrochloride.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11632
+    },
+    "Naphthol.pdf": {
+      "filename": "Naphthol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H311",
+        "H315",
+        "H318",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 11160
+    },
+    "Nitric acid.pdf": {
+      "filename": "Nitric acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS03",
+        "GHS05",
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS03",
+        "GHS05",
+        "GHS06"
+      ],
+      "h_codes": [
+        "H272",
+        "H290",
+        "H314",
+        "H318",
+        "H330"
+      ],
+      "hazards": [
+        {
+          "id": "oxidizer",
+          "code": "GHS03",
+          "label_ar": "مؤكسد",
+          "label_en": "Oxidizer",
+          "symbol": "O"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 11222
+    },
+    "NNNN-tetramethylethylenediamine.pdf": {
+      "filename": "NNNN-tetramethylethylenediamine.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS05",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H302",
+        "H314",
+        "H332"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12046
+    },
+    "Nonionic Detergent.pdf": {
+      "filename": "Nonionic Detergent.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H318"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9318
+    },
+    "Nutrient Agar.pdf": {
+      "filename": "Nutrient Agar.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10611
+    },
+    "Nutrient Broth for microbiology.pdf": {
+      "filename": "Nutrient Broth for microbiology.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9634
+    },
+    "Oil of cinnamon.pdf": {
+      "filename": "Oil of cinnamon.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS06",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H226",
+        "H301",
+        "H302",
+        "H304",
+        "H312",
+        "H315",
+        "H317",
+        "H319",
+        "H400",
+        "H410",
+        "H411",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10958
+    },
+    "Oil of coriander natural.pdf": {
+      "filename": "Oil of coriander natural.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H304",
+        "H315",
+        "H317",
+        "H319",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10493
+    },
+    "Oil of lemon.pdf": {
+      "filename": "Oil of lemon.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H226",
+        "H304",
+        "H315",
+        "H317",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9863
+    },
+    "Oil of orange.pdf": {
+      "filename": "Oil of orange.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H226",
+        "H304",
+        "H315",
+        "H317",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10672
+    },
+    "Oleic Acid.pdf": {
+      "filename": "Oleic Acid.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9373
+    },
+    "Oleum Olivarum.pdf": {
+      "filename": "Oleum Olivarum.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9470
+    },
+    "olive oil.pdf": {
+      "filename": "olive oil.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9470
+    },
+    "Orcin monohydrate.pdf": {
+      "filename": "Orcin monohydrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H315",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10358
+    },
+    "Oxalic acid.pdf": {
+      "filename": "Oxalic acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H312",
+        "H318"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10861
+    },
+    "Papaverine hydrochloride.pdf": {
+      "filename": "Papaverine hydrochloride.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11317
+    },
+    "Paraffin Liquid.pdf": {
+      "filename": "Paraffin Liquid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS08"
+      ],
+      "h_codes": [
+        "H304"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 10461
+    },
+    "Paraffin oil.pdf": {
+      "filename": "Paraffin oil.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS08"
+      ],
+      "h_codes": [
+        "H304"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 10461
+    },
+    "Paraplast.pdf": {
+      "filename": "Paraplast.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9035
+    },
+    "Peanut Oil.pdf": {
+      "filename": "Peanut Oil.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9548
+    },
+    "Peppermint oil pure.pdf": {
+      "filename": "Peppermint oil pure.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H317",
+        "H319",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10764
+    },
+    "Peppermint oil.pdf": {
+      "filename": "Peppermint oil.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H317",
+        "H319",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10764
+    },
+    "peppermint.pdf": {
+      "filename": "peppermint.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H317",
+        "H319",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10764
+    },
+    "Peptone Water.pdf": {
+      "filename": "Peptone Water.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9805
+    },
+    "Petroleum ether 40-60 °C ROTIPURAN.pdf": {
+      "filename": "Petroleum ether 40-60 °C ROTIPURAN.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H304",
+        "H315",
+        "H336",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12705
+    },
+    "Petroleum ether.pdf": {
+      "filename": "Petroleum ether.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H304",
+        "H315",
+        "H336",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12705
+    },
+    "Phenol red.pdf": {
+      "filename": "Phenol red.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9901
+    },
+    "Phenylalanine.pdf": {
+      "filename": "Phenylalanine.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10188
+    },
+    "Phloroglucinol dihydrate.pdf": {
+      "filename": "Phloroglucinol dihydrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10430
+    },
+    "Phthalic anhydride.pdf": {
+      "filename": "Phthalic anhydride.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H315",
+        "H317",
+        "H318",
+        "H332",
+        "H334",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11049
+    },
+    "Pilocarpine hydrochloride.pdf": {
+      "filename": "Pilocarpine hydrochloride.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H300",
+        "H330"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 11241
+    },
+    "Plate-Count-Agar.pdf": {
+      "filename": "Plate-Count-Agar.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10384
+    },
+    "Poly(ethylene glycol).pdf": {
+      "filename": "Poly(ethylene glycol).pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10271
+    },
+    "Polyethylene glycol 10000.pdf": {
+      "filename": "Polyethylene glycol 10000.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10271
+    },
+    "Polyethylene glycol 400.pdf": {
+      "filename": "Polyethylene glycol 400.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10343
+    },
+    "polyethylene glycol.pdf": {
+      "filename": "polyethylene glycol.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10041
+    },
+    "polyethylene-polypropylene-glycol.pdf": {
+      "filename": "polyethylene-polypropylene-glycol.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 7877
+    },
+    "Polysorbate 20.pdf": {
+      "filename": "Polysorbate 20.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12002
+    },
+    "Polyvinyl alcohol 6-98,.pdf": {
+      "filename": "Polyvinyl alcohol 6-98,.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10150
+    },
+    "Polyvinylpyrrolidone K 25, extra pure.pdf": {
+      "filename": "Polyvinylpyrrolidone K 25, extra pure.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10146
+    },
+    "Potassium acetate.pdf": {
+      "filename": "Potassium acetate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10009
+    },
+    "Potassium carbonate.pdf": {
+      "filename": "Potassium carbonate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9974
+    },
+    "Potassium chlorate.pdf": {
+      "filename": "Potassium chlorate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS03",
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS03",
+        "GHS06"
+      ],
+      "h_codes": [
+        "H271",
+        "H301"
+      ],
+      "hazards": [
+        {
+          "id": "oxidizer",
+          "code": "GHS03",
+          "label_ar": "مؤكسد",
+          "label_en": "Oxidizer",
+          "symbol": "O"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 10864
+    },
+    "Potassium chromate.pdf": {
+      "filename": "Potassium chromate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H317",
+        "H319",
+        "H335",
+        "H340",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11802
+    },
+    "Potassium dichromate.pdf": {
+      "filename": "Potassium dichromate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS03",
+        "GHS05",
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS03",
+        "GHS06",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H272",
+        "H301",
+        "H312",
+        "H314",
+        "H317",
+        "H318",
+        "H330",
+        "H334",
+        "H335",
+        "H340",
+        "H350",
+        "H360FD",
+        "H372",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "oxidizer",
+          "code": "GHS03",
+          "label_ar": "مؤكسد",
+          "label_en": "Oxidizer",
+          "symbol": "O"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 12943
+    },
+    "Potassium dihydrogen orthophosphate.pdf": {
+      "filename": "Potassium dihydrogen orthophosphate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10695
+    },
+    "Potassium Dihydrogen Phosphate.pdf": {
+      "filename": "Potassium Dihydrogen Phosphate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9640
+    },
+    "Potassium ferricyanide.pdf": {
+      "filename": "Potassium ferricyanide.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11081
+    },
+    "Potassium ferrocyanide trihydrate.pdf": {
+      "filename": "Potassium ferrocyanide trihydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10020
+    },
+    "Potassium hexacyanoferrate(II) trihydrate.pdf": {
+      "filename": "Potassium hexacyanoferrate(II) trihydrate.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS09"
+      ],
+      "h_codes": [
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 10189
+    },
+    "Potassium hexacyanoferrate(III).pdf": {
+      "filename": "Potassium hexacyanoferrate(III).pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H319",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10035
+    },
+    "Potassium hydroxide solution.pdf": {
+      "filename": "Potassium hydroxide solution.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05"
+      ],
+      "mapped_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H290",
+        "H302",
+        "H314",
+        "H315",
+        "H318",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        }
+      ],
+      "text_extract_length": 11847
+    },
+    "Potassium Hydroxide, Solid.pdf": {
+      "filename": "Potassium Hydroxide, Solid.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H314",
+        "H318",
+        "H402"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 15986
+    },
+    "Potassium iodide.pdf": {
+      "filename": "Potassium iodide.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS08"
+      ],
+      "mapped_codes": [
+        "GHS08"
+      ],
+      "h_codes": [
+        "H372"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        }
+      ],
+      "text_extract_length": 10532
+    },
+    "Potassium nitrate.pdf": {
+      "filename": "Potassium nitrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS03"
+      ],
+      "mapped_codes": [
+        "GHS03"
+      ],
+      "h_codes": [
+        "H272"
+      ],
+      "hazards": [
+        {
+          "id": "oxidizer",
+          "code": "GHS03",
+          "label_ar": "مؤكسد",
+          "label_en": "Oxidizer",
+          "symbol": "O"
+        }
+      ],
+      "text_extract_length": 10102
+    },
+    "Potassium periodate.pdf": {
+      "filename": "Potassium periodate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS03",
+        "GHS05",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS03",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H271",
+        "H314",
+        "H318",
+        "H335",
+        "H372",
+        "H400"
+      ],
+      "hazards": [
+        {
+          "id": "oxidizer",
+          "code": "GHS03",
+          "label_ar": "مؤكسد",
+          "label_en": "Oxidizer",
+          "symbol": "O"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12162
+    },
+    "Potassium permanganate.pdf": {
+      "filename": "Potassium permanganate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS03",
+        "GHS05",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS03",
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H272",
+        "H302",
+        "H314",
+        "H318",
+        "H373",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "oxidizer",
+          "code": "GHS03",
+          "label_ar": "مؤكسد",
+          "label_en": "Oxidizer",
+          "symbol": "O"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12541
+    },
+    "Potassium sodium tartrate tetrahydrate.pdf": {
+      "filename": "Potassium sodium tartrate tetrahydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10744
+    },
+    "Potassium thiocyanate.pdf": {
+      "filename": "Potassium thiocyanate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H312",
+        "H332",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10891
+    },
+    "Propanol.pdf": {
+      "filename": "Propanol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H225",
+        "H319",
+        "H336"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11475
+    },
+    "propylene glycol.pdf": {
+      "filename": "propylene glycol.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10946
+    },
+    "Quinine hemisulfate monohydrate.pdf": {
+      "filename": "Quinine hemisulfate monohydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11585
+    },
+    "Quinine sulfate dihydrate.pdf": {
+      "filename": "Quinine sulfate dihydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11402
+    },
+    "Resorcinol.pdf": {
+      "filename": "Resorcinol.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS08",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H315",
+        "H317",
+        "H318",
+        "H370",
+        "H371",
+        "H400",
+        "H410",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10630
+    },
+    "Sabouraud Dextrose Agar, Emmons.pdf": {
+      "filename": "Sabouraud Dextrose Agar, Emmons.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12116
+    },
+    "Saccharin sodium salt.pdf": {
+      "filename": "Saccharin sodium salt.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11498
+    },
+    "Saccharose.pdf": {
+      "filename": "Saccharose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9972
+    },
+    "Salicylic acid.pdf": {
+      "filename": "Salicylic acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H318"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11628
+    },
+    "Salmonella-Shigella Agar for microbiology.pdf": {
+      "filename": "Salmonella-Shigella Agar for microbiology.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS09"
+      ],
+      "h_codes": [
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 10111
+    },
+    "saponin.pdf": {
+      "filename": "saponin.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 18535
+    },
+    "Scopolamine hydrobromide trihydrate.pdf": {
+      "filename": "Scopolamine hydrobromide trihydrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H300",
+        "H310",
+        "H330"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 10776
+    },
+    "Scopolamine hydrobromide.pdf": {
+      "filename": "Scopolamine hydrobromide.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H300",
+        "H310",
+        "H330"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 11210
+    },
+    "Sephadex.pdf": {
+      "filename": "Sephadex.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10833
+    },
+    "SHEEP BLOOD AGAR BASE.pdf": {
+      "filename": "SHEEP BLOOD AGAR BASE.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10536
+    },
+    "Silica gel.pdf": {
+      "filename": "Silica gel.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9258
+    },
+    "Silicagel.pdf": {
+      "filename": "Silicagel.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11289
+    },
+    "Silver nitrate.pdf": {
+      "filename": "Silver nitrate.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS03",
+        "GHS05",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H272",
+        "H290",
+        "H314",
+        "H318",
+        "H360D",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "oxidizer",
+          "code": "GHS03",
+          "label_ar": "مؤكسد",
+          "label_en": "Oxidizer",
+          "symbol": "O"
+        },
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 10391
+    },
+    "Sodium (meta)arsenite.pdf": {
+      "filename": "Sodium (meta)arsenite.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS06",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H301",
+        "H331",
+        "H350",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 11127
+    },
+    "Sodium acetate.pdf": {
+      "filename": "Sodium acetate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10235
+    },
+    "sodium benzoate.pdf": {
+      "filename": "sodium benzoate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10982
+    },
+    "Sodium bicarbonate.pdf": {
+      "filename": "Sodium bicarbonate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10219
+    },
+    "Sodium carbonate.pdf": {
+      "filename": "Sodium carbonate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10358
+    },
+    "Sodium Carboxymethyl Cellulose.pdf": {
+      "filename": "Sodium Carboxymethyl Cellulose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 14007
+    },
+    "Sodium chloride.pdf": {
+      "filename": "Sodium chloride.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9110
+    },
+    "sodium dihydrogen phosphate dihydrate.pdf": {
+      "filename": "sodium dihydrogen phosphate dihydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9933
+    },
+    "sodium dihydrogen phosphate.pdf": {
+      "filename": "sodium dihydrogen phosphate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9657
+    },
+    "Sodium dodecyl sulfate.pdf": {
+      "filename": "Sodium dodecyl sulfate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H315",
+        "H318"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 9880
+    },
+    "Sodium hydrogen carbonate.pdf": {
+      "filename": "Sodium hydrogen carbonate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10036
+    },
+    "Sodium hydroxide pellets.pdf": {
+      "filename": "Sodium hydroxide pellets.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H290",
+        "H314",
+        "H315",
+        "H318",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11141
+    },
+    "Sodium hydroxide.pdf": {
+      "filename": "Sodium hydroxide.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05"
+      ],
+      "mapped_codes": [
+        "GHS05"
+      ],
+      "h_codes": [
+        "H290",
+        "H314",
+        "H318"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        }
+      ],
+      "text_extract_length": 10840
+    },
+    "Sodium hypochlorite solution.pdf": {
+      "filename": "Sodium hypochlorite solution.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05"
+      ],
+      "mapped_codes": [
+        "GHS05"
+      ],
+      "h_codes": [
+        "H290",
+        "H314",
+        "H318"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        }
+      ],
+      "text_extract_length": 11961
+    },
+    "Sodium nitrite.pdf": {
+      "filename": "Sodium nitrite.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS03",
+        "GHS06",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS03",
+        "GHS06",
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H272",
+        "H301",
+        "H319",
+        "H400"
+      ],
+      "hazards": [
+        {
+          "id": "oxidizer",
+          "code": "GHS03",
+          "label_ar": "مؤكسد",
+          "label_en": "Oxidizer",
+          "symbol": "O"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 11571
+    },
+    "Sodium phosphate.pdf": {
+      "filename": "Sodium phosphate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10015
+    },
+    "Sodium salicylate.pdf": {
+      "filename": "Sodium salicylate.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10774
+    },
+    "Sodium sulfate.pdf": {
+      "filename": "Sodium sulfate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10659
+    },
+    "SODIUM SULPHATE.pdf": {
+      "filename": "SODIUM SULPHATE.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9489
+    },
+    "Sodium sulphide hydrate.pdf": {
+      "filename": "Sodium sulphide hydrate.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS06",
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS05",
+        "GHS06",
+        "GHS09"
+      ],
+      "h_codes": [
+        "H290",
+        "H301",
+        "H311",
+        "H314",
+        "H318",
+        "H400"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 11828
+    },
+    "Sodium thiosulphate pentahydrate.pdf": {
+      "filename": "Sodium thiosulphate pentahydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10071
+    },
+    "Sparteine sulfate pentahydrate.pdf": {
+      "filename": "Sparteine sulfate pentahydrate.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H312",
+        "H332"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10644
+    },
+    "Sparteine.pdf": {
+      "filename": "Sparteine.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11360
+    },
+    "Starch , soluble.pdf": {
+      "filename": "Starch , soluble.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9819
+    },
+    "Starch potato.pdf": {
+      "filename": "Starch potato.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10877
+    },
+    "Starch rice.pdf": {
+      "filename": "Starch rice.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9877
+    },
+    "Starch, maize.pdf": {
+      "filename": "Starch, maize.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10540
+    },
+    "Starch, soluble.pdf": {
+      "filename": "Starch, soluble.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10515
+    },
+    "Starch.pdf": {
+      "filename": "Starch.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9819
+    },
+    "Stearic acid.pdf": {
+      "filename": "Stearic acid.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9595
+    },
+    "Strychnine.pdf": {
+      "filename": "Strychnine.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS06"
+      ],
+      "mapped_codes": [
+        "GHS06"
+      ],
+      "h_codes": [
+        "H300",
+        "H310"
+      ],
+      "hazards": [
+        {
+          "id": "toxic",
+          "code": "GHS06",
+          "label_ar": "سام",
+          "label_en": "Toxic",
+          "symbol": "☠"
+        }
+      ],
+      "text_extract_length": 10802
+    },
+    "Sucrose.pdf": {
+      "filename": "Sucrose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9691
+    },
+    "Sulfacetamide sodium.pdf": {
+      "filename": "Sulfacetamide sodium.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H315",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10416
+    },
+    "Sulphuric acid.pdf": {
+      "filename": "Sulphuric acid.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05"
+      ],
+      "mapped_codes": [
+        "GHS05",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H290",
+        "H314",
+        "H315",
+        "H318",
+        "H319"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        }
+      ],
+      "text_extract_length": 12030
+    },
+    "T.C.B.S. Cholera Medium.pdf": {
+      "filename": "T.C.B.S. Cholera Medium.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 4957
+    },
+    "Talcum.pdf": {
+      "filename": "Talcum.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 8868
+    },
+    "TCBS Agar for microbiology.pdf": {
+      "filename": "TCBS Agar for microbiology.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS09"
+      ],
+      "h_codes": [
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 10202
+    },
+    "Theophylline.pdf": {
+      "filename": "Theophylline.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10973
+    },
+    "Thymol.pdf": {
+      "filename": "Thymol.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H314",
+        "H318",
+        "H411"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11195
+    },
+    "Tragacanth gum.pdf": {
+      "filename": "Tragacanth gum.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10602
+    },
+    "Triple Sugar Iron (TSI) Agar.pdf": {
+      "filename": "Triple Sugar Iron (TSI) Agar.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 12537
+    },
+    "Tryptic Soy Broth.pdf": {
+      "filename": "Tryptic Soy Broth.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10174
+    },
+    "Urea Agar Base.pdf": {
+      "filename": "Urea Agar Base.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 11088
+    },
+    "Vaseline.pdf": {
+      "filename": "Vaseline.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10481
+    },
+    "Water ROTISOLV® HPLC Gradient Grade.pdf": {
+      "filename": "Water ROTISOLV® HPLC Gradient Grade.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9482
+    },
+    "WHITE SOFT PARAFFIN.pdf": {
+      "filename": "WHITE SOFT PARAFFIN.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 10174
+    },
+    "XLD-Agar.pdf": {
+      "filename": "XLD-Agar.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 10062
+    },
+    "Xylene (isomers).pdf": {
+      "filename": "Xylene (isomers).pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H226",
+        "H304",
+        "H312",
+        "H315",
+        "H319",
+        "H332",
+        "H335",
+        "H373"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11642
+    },
+    "Xylene.pdf": {
+      "filename": "Xylene.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS02",
+        "GHS08",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H226",
+        "H304",
+        "H312",
+        "H315",
+        "H319",
+        "H332",
+        "H335",
+        "H373"
+      ],
+      "hazards": [
+        {
+          "id": "flammable",
+          "code": "GHS02",
+          "label_ar": "قابل للاشتعال",
+          "label_en": "Flammable",
+          "symbol": "🔥"
+        },
+        {
+          "id": "health",
+          "code": "GHS08",
+          "label_ar": "خطر صحي مزمن",
+          "label_en": "Health hazard",
+          "symbol": "⚕"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11642
+    },
+    "Xylose Lysine Deoxycholate (XLD) Agar.pdf": {
+      "filename": "Xylose Lysine Deoxycholate (XLD) Agar.pdf",
+      "source": "pdf_h_statements",
+      "pictogram_codes": [],
+      "mapped_codes": [
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H315",
+        "H319",
+        "H335"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12383
+    },
+    "Xylose.pdf": {
+      "filename": "Xylose.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9899
+    },
+    "Zinc chloride.pdf": {
+      "filename": "Zinc chloride.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS05",
+        "GHS09",
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H314",
+        "H335",
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "corrosive",
+          "code": "GHS05",
+          "label_ar": "آكل",
+          "label_en": "Corrosive",
+          "symbol": "⚗"
+        },
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        },
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 12201
+    },
+    "Zinc oxide.pdf": {
+      "filename": "Zinc oxide.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS09"
+      ],
+      "mapped_codes": [
+        "GHS09"
+      ],
+      "h_codes": [
+        "H400",
+        "H410"
+      ],
+      "hazards": [
+        {
+          "id": "environment",
+          "code": "GHS09",
+          "label_ar": "خطر بيئي",
+          "label_en": "Environmental hazard",
+          "symbol": "♒"
+        }
+      ],
+      "text_extract_length": 10392
+    },
+    "Zinc sulphate solution.pdf": {
+      "filename": "Zinc sulphate solution.pdf",
+      "source": "pdf_pictograms",
+      "pictogram_codes": [
+        "GHS07"
+      ],
+      "mapped_codes": [
+        "GHS09",
+        "GHS07"
+      ],
+      "h_codes": [
+        "H302",
+        "H318",
+        "H319",
+        "H400",
+        "H410",
+        "H412"
+      ],
+      "hazards": [
+        {
+          "id": "irritant",
+          "code": "GHS07",
+          "label_ar": "مهيج / ضار",
+          "label_en": "Irritant",
+          "symbol": "!"
+        }
+      ],
+      "text_extract_length": 11449
+    },
+    "Zinc.pdf": {
+      "filename": "Zinc.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9858
+    },
+    "α-Lactose monohydrate.pdf": {
+      "filename": "α-Lactose monohydrate.pdf",
+      "source": "not_found",
+      "pictogram_codes": [],
+      "mapped_codes": [],
+      "h_codes": [],
+      "hazards": [
+        {
+          "id": "review",
+          "code": "SDS",
+          "label_ar": "راجع ملف SDS",
+          "label_en": "Review SDS",
+          "symbol": "SDS"
+        }
+      ],
+      "text_extract_length": 9904
+    }
+  }
+}
